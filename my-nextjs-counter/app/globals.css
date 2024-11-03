@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+h1, h2 {
+  color: #0070f3; /* Blue color for headers */
+}
+
+button {
+  background-color: #0070f3; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Add padding */
+  cursor: pointer; /* Change cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker blue on hover */
+}
