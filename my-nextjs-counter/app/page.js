@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
       <main style={{ textAlign: 'center', marginTop: '20px' }}>
-        <h1>Welcome to My Next.js Counter App!</h1>
+        <h1>Welcome to My Next.js Counter App! By: Jackson Kueny</h1>
         <h2>Counter: {count}</h2>
         <button onClick={increment}>+</button>
         <button onClick={decrement} style={{ marginLeft: '10px' }}>-</button>
